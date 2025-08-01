@@ -60,6 +60,10 @@
     border: 2px solid #c4c1c5;
     font-size: 20px;
     cursor: pointer;
+    background: linear-gradient(270deg, #da7c25 0.36%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .heroresume:hover{
     border: 2px solid purple;
