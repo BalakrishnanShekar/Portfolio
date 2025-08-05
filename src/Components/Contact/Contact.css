@@ -45,6 +45,7 @@
 .contactdetails{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     gap: 30px;
     font-size: 20px;
 }
@@ -103,6 +104,22 @@
 .contactsubmit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+.contactmedia{
+    display: flex;
+    max-width: 150px;
+    margin-top: 50px;
+    gap: 40px;
+    align-items: center;
+}
+.contactmedia img{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.contactgit{
+    filter: brightness(0) invert(1);
+    height: 35px;
 }
 @media(max-width:768px) {
     .contact{

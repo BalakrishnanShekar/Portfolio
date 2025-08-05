@@ -4,6 +4,9 @@ import theme from '../../assets/theme_pattern.svg'
 import mail from '../../assets/mail_icon.svg'
 import location from '../../assets/location_icon.svg'
 import call from '../../assets/call_icon.svg'
+import link from '../../assets/linkedin.svg'
+import insta from '../../assets/instagram.svg'
+import git from '../../assets/github.svg'
 const Contact = () => {
 
   const onSubmit = async (event) => {
@@ -49,6 +52,11 @@ const Contact = () => {
             <div className="contactdetail">
               <img src={location} alt="" /><p>CBE,India</p>
             </div>
+          </div>
+          <div className="contactmedia">
+              <a href="https://www.instagram.com/baluiyerr/" target='_blank'><img src={insta} /></a>
+              <a href="https://www.linkedin.com/in/s-balakrishnan-09bbbb219/" target='_blank'><img src={link} alt="" /></a>
+              <a href="https://github.com/" target='_blank' ><img className='contactgit' src={git} alt="" /></a>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contactright">
